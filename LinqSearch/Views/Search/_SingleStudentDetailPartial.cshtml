@@ -1,0 +1,27 @@
+﻿@model  List< LinqSearch.Models.SearchModel.SearchList>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<table class="table table-bordered table-responsive table hover">
+    <tr>
+        <th>Student Id</th>
+        <th>Student Name</th>
+        <th>Student Age</th>
+        <th>Student Class</th>
+    </tr>
+
+    @foreach (var data in Model)
+    {
+        <tr>
+            <td>@data.StudentId</td>
+            <td>@data.StudentName</td>
+            <td>@data.StudentAge</td>
+            <td>@data.StudentClass</td>
+
+
+        </tr>
+
+    }
+
+
+</table>

@@ -1,0 +1,42 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<LinqSearch.Models.SearchModel.SearchList> ;
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+<div id="divInitialLoad">
+    <partial name="_StudentDetailPartial" model="@Model" />
+</div>
+
+<div id="divAjaxLoad">
+
+</div>
+
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="movieList" />
+    <title>Student Details</title>
+
+</head>
+
+<body>
+
+    <div>
+        Search a Student by its Name:
+        <input type="text" id="SearchId"><br />
+    </div>
+
+    <button type="button" class="btn btn-success" value="Submit" data-attr="submit">Search</button>
+
+</body>
+
+</html>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/searchStudent.js"></script>

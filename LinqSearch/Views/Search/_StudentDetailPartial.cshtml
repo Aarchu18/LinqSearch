@@ -1,0 +1,40 @@
+﻿@using LinqSearch.Models.SearchModel;
+@model List<SearchList>
+
+
+
+    <h2>Student Details</h2>
+
+    <html>
+
+    <head>
+        <meta name="viewport" content="student details" />
+        <title>student Detail</title>
+    </head>
+    
+
+    <body>
+        <table class="table table-bordered table-responsive table hover">
+            <tr>
+                <th>StudentId</th>
+                <th>StudentName</th>
+                <th>StudentAge</th>
+                <th>StudentClass</th>
+            </tr>
+            @foreach (var studentData in Model)
+        {
+
+
+            <tr>
+                <td>@studentData.StudentId</td>
+                <td>@studentData.StudentName</td>
+                <td>@studentData.StudentAge</td>
+                <td>@studentData.StudentClass</td>
+            </tr>
+        }
+
+        </table>
+    </body>
+
+</html>
+

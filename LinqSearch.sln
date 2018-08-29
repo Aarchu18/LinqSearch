@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSearch", "LinqSearch\LinqSearch.csproj", "{12D13112-D0E1-4835-84B2-90B067A92FB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12D13112-D0E1-4835-84B2-90B067A92FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D13112-D0E1-4835-84B2-90B067A92FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D13112-D0E1-4835-84B2-90B067A92FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D13112-D0E1-4835-84B2-90B067A92FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {976E09A4-A8FC-407B-B9C6-3CE487E05934}
+	EndGlobalSection
+EndGlobal
